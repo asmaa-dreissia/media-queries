@@ -1,0 +1,48 @@
+nav{
+    float: right;
+}
+ul{
+    background-color: rgb(186, 186, 219);
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li{
+    margin-left: 80px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: #88c1d0;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#icon-menu{
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+}
+
+.burger-icon span{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+@media only screen and (max-width: 767px){ 
+    body { 
+        column-gap: 20px;
+    }
+}
+
